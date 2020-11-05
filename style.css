@@ -1,19 +1,12 @@
-.box {
-  min-height: 50px;
-  padding: 5px;
-  margin: 5px;
-  font-weight: 800;
-  color: #fff;
+/* navbar styling*/
+a.navbar-brand{
+  margin-left: 10px;
+  padding: 10px;
+  background-color: rgb(81, 175, 160);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
 }
 
-.skyblue {
-  background: deepskyblue;
-}
-
-.purple {
-  background: rebeccapurple;
-}
-
-.red {
-  background: indianred;
+/* navbar styling*/
+.navbar{ padding-right:40px;
 }
