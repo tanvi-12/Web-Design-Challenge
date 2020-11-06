@@ -5,20 +5,34 @@
   text-align: center;
   background-color:  rgb(80,170,170);
   font-family: 'Times New Roman', Times, serif;
-  font-size: 25px;
+  font-size: 100x;
+  font-weight: bolder;
 }
 
 .navbar-custom{ background-color: rgb(80, 170, 170);
 }
 
 /* body styling*/
+
+body{background-color:lightgrey;}
+
 .container-fluid{
   background-color: white;
 }
 
-.row {text-align: center;
+h1 {text-align: left;
   background-color: white;
   font-style: 'Times New Roman', Times, serif;
   font-size: 25px;
-  color: rgb(80,170,170)
+  font-weight: bold;
+  color: rgb(80,170,170);
+}
+
+
+h2 {text-align: left;
+  background-color: white;
+  font-style: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(80,170,170);
 }
