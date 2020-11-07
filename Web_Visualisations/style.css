@@ -41,6 +41,24 @@ h3 {text-align: left;
   color: rgb(80,170,170);
 }
 
+h4 {text-align: left;
+  padding-top: 20px;
+  background-color: white;
+  font-style: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(80,170,170);
+}
+
+h5 {text-align: center;
+  padding-top: 20px;
+  background-color: white;
+  font-style: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(80,170,170);
+}
+
 p{
   font-size: 15px;
 }
@@ -85,5 +103,28 @@ body{background-color:lightgrey;}
   background-color: white;
 }
 
+
+.comparebox{ background-color: white;
+  margin: 0 auto;
+  width: 1000px;
+  height: 900px;
+  position: absolute;
+  left: 100px ;
+  right: 100px ;
+  bottom: 20000px ;
+  top: 90px;
+  align-self: center;
+  align-content: center;
+  padding-left: 10px;
+}
+
+.column{ position: absolute;
+  align-content: center;
+  left: 500px ;
+  top: 49px;}
+
+
 /* media styling*/
 /* Extra small devices (phones, 600px and down) */
+/* 
+  
