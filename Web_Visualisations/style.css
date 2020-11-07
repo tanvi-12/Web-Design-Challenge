@@ -32,6 +32,15 @@ h2 {text-align: left;
   color: rgb(80,170,170);
 }
 
+h3 {text-align: left;
+  padding-top: 20px;
+  background-color: white;
+  font-style: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(80,170,170);
+}
+
 p{
   font-size: 15px;
 }
@@ -65,16 +74,16 @@ body{background-color:lightgrey;}
       top: 90px;
     }
 
-/*
-.container {
-  padding-top: 30px;
-  margin: 0 auto;
-  width: 900px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 15px;
-  padding-left: 0px;
-  padding-right: 10px;
-  padding-bottom: 0px;  
-  margin-right: -450px;
+.tablebox{ margin: 0 auto;
+  width: 1100px;
+  padding-left: 80px;
+  padding-right: 80px;  
+  margin-top:10px;    
+  position: absolute;
+  left: 100px ;
+  top: 90px;
+  background-color: white;
 }
 
+/* media styling*/
+/* Extra small devices (phones, 600px and down) */
