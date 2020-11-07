@@ -9,30 +9,72 @@
   font-weight: bolder;
 }
 
-.navbar-custom{ background-color: rgb(80, 170, 170);
+.collapse{
+align-content: right;
+}
+
+/* font styling*/
+h1 {text-align: left;
+  padding-top: 20px;
+  background-color: white;
+  font-style: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(80,170,170);
+}
+
+h2 {text-align: left;
+  padding-top: 20px;
+  background-color: white;
+  font-style: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(80,170,170);
+}
+
+p{
+  font-size: 15px;
 }
 
 /* body styling*/
 
 body{background-color:lightgrey;}
 
-.container-fluid{
-  background-color: white;
+
+/* boxes styling*/
+
+.box1{
+      margin: 0 auto;
+      width: 1000px;
+      padding-left: 80px; 
+      margin-top:10px;
+      padding-left: -250px;      
+      position: absolute;
+      left: 50px ;
+      top: 90px;
+    }
+
+.box2{ margin: 0 auto;
+      width: 900px;
+      align-content: center;
+      margin-left:100px;
+      padding-left: 200px;  
+      margin-top:10px;
+      position: absolute;
+      right: -160px ;
+      top: 90px;
+    }
+
+/*
+.container {
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 900px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;  
+  margin-right: -450px;
 }
 
-h1 {text-align: left;
-  background-color: white;
-  font-style: 'Times New Roman', Times, serif;
-  font-size: 25px;
-  font-weight: bold;
-  color: rgb(80,170,170);
-}
-
-
-h2 {text-align: left;
-  background-color: white;
-  font-style: 'Times New Roman', Times, serif;
-  font-size: 25px;
-  font-weight: bold;
-  color: rgb(80,170,170);
-}
