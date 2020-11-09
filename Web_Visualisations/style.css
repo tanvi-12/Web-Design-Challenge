@@ -70,27 +70,30 @@ body{background-color:lightgrey;}
 
 /* boxes styling*/
 
-.box1{
-      margin: 0 auto;
-      width: 1000px;
-      padding-left: 80px; 
-      margin-top:10px;
-      padding-left: -250px;      
-      position: absolute;
-      left: 50px ;
-      top: 90px;
-    }
 
-.box2{ margin: 0 auto;
-      width: 900px;
+.container-fluid{
+      margin: 10px auto;      
+      position: relative;
+      top: 20px;
+      align-self: center;
       align-content: center;
-      margin-left:100px;
-      padding-left: 200px;  
-      margin-top:10px;
-      position: absolute;
-      right: -160px ;
-      top: 90px;
+    
     }
+/* content styling*/
+.container {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  overflow: hidden;
+} 
+
+.col-md-12{
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom:55px;
+  margin: auto 0 ;
+}
+
+
 
 .tablebox{ margin: 0 auto;
   width: 1100px;
@@ -106,25 +109,12 @@ body{background-color:lightgrey;}
 
 .comparebox{ background-color: white;
   margin: 0 auto;
-  width: 1000px;
-  height: 900px;
   position: absolute;
-  left: 100px ;
-  right: 100px ;
-  bottom: 20000px ;
   top: 90px;
   align-self: center;
   align-content: center;
-  padding-left: 10px;
 }
 
-.column{ position: absolute;
-  align-content: center;
-  left: 500px ;
-  top: 49px;}
-
-
-/* media styling*/
-/* Extra small devices (phones, 600px and down) */
-/* 
-  
+.compareboximg {width : 100%;}  
+.indeximg {width : 50%;}  
+.visimg {width : 100%;}  
