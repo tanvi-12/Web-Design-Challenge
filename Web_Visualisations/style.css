@@ -79,9 +79,9 @@ body{background-color:lightgrey;}
       align-content: center;
     
     }
-/* content styling*/
+
 .container {
-  padding-top: 50px;
+  padding-top: 55px;
   padding-bottom: 80px;
   overflow: hidden;
 } 
@@ -92,8 +92,6 @@ body{background-color:lightgrey;}
   padding-bottom:55px;
   margin: auto 0 ;
 }
-
-
 
 .tablebox{ margin: 0 auto;
   width: 1100px;
